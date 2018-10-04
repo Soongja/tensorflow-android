@@ -1,5 +1,19 @@
 # Preparing TF protobuf(pb) for Android
 
+- [Prerequisites](#prerequisites)
+- [Installing Bazel on Ubuntu](#installing-bazel-on-ubuntu)
+- [Writing Graph](#writing-graph)
+- [0. Git Clone](#0-git-clone)
+- [1. Freezing](#1-freezing)
+- [2. Summarizing](#2-summarizing)
+- [3. Graph Transforms Tool](#3-graph-transforms-tool)
+  * [3-1. Stripping](#3-1-stripping)
+  * [3-2. Quantizing](#3-2-quantizing)
+  * [3-3. Etc.](#3-3-etc)
+- [4. Benchmark](#4-benchmark)
+- [References](#references)
+
+
 ## Prerequisites
 * Bazel
 * Tensorflow
